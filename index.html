@@ -1,38 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Work Day Scheduler</title>
-  </head>
 
-  <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
-    </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Work Day Agenda</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p>
+  </header>
+  <div class="container">
+    <!-- Timeblocks go here -->
+    <div class="row" id="Mon">
+      <div class="col" id="day">Monday</div>
+      <div class="col-9" id="text">to-do</div>
+      <div class="col"><button type="button" class="btn btn-light" id="saveBtn">Save</button></div>
+    </div>
+    <div class="row" id="Tues">
+      <div class="col" id="day">Tuesday</div>
+      <div class="col-9" id="text">to-do</div>
+      <div class="col"><button type="button" class="btn btn-light">Save</button></div>
+    </div>
+    <div class="row" id="Wed">
+      <div class="col" id="day">Wednesday</div>
+      <div class="col-9" id="text">to-do</div>
+      <div class="col"><button type="button" class="btn btn-light">Save</button></div>
+    </div>
+    <div class="row" id="Thurs">
+      <div class="col" id="day">Thursday</div>
+      <div class="col-9" id="text">to-do</div>
+      <div class="col"><button type="button" class="btn btn-light">Save</button></div>
+    </div>
+    <div class="row" id="Fri">
+      <div class="col" id="day">Friday</div>
+      <div class="col-9" id="text">to-do</div>
+      <div class="col"><button type="button" class="btn btn-light">Save</button></div>
+    </div>
+    <div class="row" id="Sat">
+      <div class="col" id="day">Saturday</div>
+      <div class="col-9" id="text">to-do</div>
+      <div class="col"><button type="button" class="btn btn-light">Save</button></div>
+    </div>
+    <div class="row" id="Sun">
+      <div class="col" id="day">Sunday</div>
+      <div class="col-9" id="text">to-do</div>
+      <div class="col"><button type="button" class="btn btn-light">Save</button></div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
 </html>

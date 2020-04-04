@@ -29,11 +29,10 @@ body {
     text-align: center;
     border-radius: 15px;
   }
-  
   .row {
     white-space: pre-wrap;
     height: 80px;
-    border-top: 1px solid white;;
+    border-top: 1px solid grey;;
   }
   
   .hour {
@@ -57,16 +56,15 @@ body {
     color: white;
   }
   
-  .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
-  }
-  
-  .saveBtn i:hover {
+ .col{
+   padding-top: 20px;
+
+ }
+
+  #day {
+    font-weight: 400;
     font-size: 20px;
-    transition: all .3s ease-in-out;
+    text-align: center;
+    padding-top: 25px;
+    text
   }
-  
